@@ -91,6 +91,7 @@ h1 {
 #services h2 {
     text-align: center;
     max-width: 100%;
+    font-size: 2rem;
 }
 
 .servicegrid {
@@ -111,8 +112,8 @@ h1 {
     flex-direction: column;
     background-color: #fff;
     align-items: flex-start;
-    padding-left: 10px;
-    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-bottom: 20px;
 }
 
 .btn {
@@ -132,6 +133,10 @@ h1 {
 .mywork {
     text-align: center;
     max-width: 850px;
+}
+
+.mywork h2 {
+    font-size: 2rem;
 }
 
 .workimages {
@@ -161,4 +166,12 @@ h1 {
 
 .workimages img:nth-child(5) {
     grid-area: div5;
+}
+
+footer {
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
 }
