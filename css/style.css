@@ -114,6 +114,7 @@ h1 {
     align-items: flex-start;
     padding-left: 15px;
     padding-bottom: 20px;
+    padding-right: 20px;
 }
 
 .btn {
@@ -132,7 +133,14 @@ h1 {
 
 .mywork {
     text-align: center;
+}
+
+.mywork p {
+    font-size: 1rem;
     max-width: 850px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 40px;
 }
 
 .mywork h2 {
